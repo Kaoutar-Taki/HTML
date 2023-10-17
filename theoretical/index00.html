@@ -11,7 +11,7 @@
     </head>
     <body>
         <!-- Start Here -->
-        <div>
+        <div id="StartHere">
             <h1>Start Here</h1>
             --------------------
             <div>
@@ -22,7 +22,7 @@
         </div>
         <hr>
         <!-- Text Basics -->
-        <div>
+        <div id="TextBasics">
             <h1>Text Basics</h1>
             --------------------
             <h1>H</h1>
@@ -53,6 +53,7 @@
         <hr>
         <!-- List Types -->
         <div>
+            <h1>List Types</h1>
             <ol>
                 <li>olli01</li>
                 <li>olli02</li>
@@ -74,6 +75,154 @@
                 <dt>dldt03</dt>
                 <dd>dldd03</dd>
             </dl>
+        </div>
+        <hr>
+        <!-- Add Links -->
+        <div>
+            <h1>Add Links</h1>
+            <a href="https://www.w3schools.com/html/">w3schools</a>
+            <br>
+            <a href="about.html">About</a>
+            <br>
+            <a href="#StartHere">StartHere</a>
+            <br>
+            <a href="#TextBasics">TextBasics</a>
+            <br>
+            <a href="#">Back to Top</a>
+            <br>
+            <a href="/">Back to Home</a>
+        </div>
+        <hr>
+        <!-- Add Images -->
+        <div>
+            <h1>Add Images</h1>
+            <figure>
+                <img 
+                    src="img/html.jpg" 
+                    alt="Html5"
+                    width="200"
+                    height="200"
+                    title="I am learning HTML5"
+                    loading="lazy"   
+                >
+                <!-- loading="eager" -->
+                <figcaption>
+                    HTML5
+                </figcaption>
+            </figure>
+            <figure>
+                <figcaption>
+                    <hr>
+                </figcaption>
+                <p>
+                    <code>
+                        &lt;h1&gt;Hello World!&lt;/h1&gt;
+                    </code>
+                </p>
+            </figure>
+            <!-- https://loremipsum.io/ -->
+            <!-- https://unsplash.com/ -->
+            <!-- https://www.pexels.com/ -->
+            <!-- https://gratisography.com/ -->
+            <!-- https://pixabay.com/ -->
+            <!-- https://www.irfanview.com/ -->
+            <!-- https://www.canva.com/ -->
+            <!-- https://tinypng.com/ -->
+            <img 
+                src="http://via.placeholder.com/640x360" 
+                alt="loremipsum.io"
+            >
+        </div>
+        <hr>
+        <!-- Semantic Tags -->
+        <div> 
+            <h1>Semantic Tags</h1>
+            Semantic HTML tags are tags that define the meaning of the content they contain. For example, the tags <b>header</b>, <b>article</b> and <b>footer</b> are semantic HTML tags. They clearly indicate the role of the content they contain.
+            <br>
+            <br>
+            Semantic HTML tags are important for a number of reasons:
+            <br>
+            <li>They make your code more readable and maintainable. </li>
+            <li>They help search engines to better understand the content of your pages. </li>
+            <li>They make your pages more accessible to users with disabilities. </li>
+            <br>
+            Here are some examples of semantic HTML tags:
+            <br>
+            <br>
+            <b>header</b>: Defines the header of a web page, such as the logo and navigation menu.<br>
+            <b>nav</b>:Defines a navigation section, such as a sidebar or breadcrumb trail.<br>
+            <b>section</b>: Defines a section of a web page, such as a blog post or product listing.<br>
+            <b>article</b>: Defines a self-contained piece of content, such as a news article or blog post.<br>
+            <b>footer</b>: Defines the footer of a web page, such as copyright information and contact links.<br>
+            <b>aside/details/summary</b>: Defines content aside from the content (such as a sidebar) in the main part of a document.<br>
+            <br>
+            <aside>
+                <details>
+                    <summary>example</summary>
+                    <p>
+                        <time datetime="08:00">8 am</time>
+                        <time datetime="PT3H">3 hours</time>
+                        Lorem  <mark>ipsum dolor</mark> sit amet consectetur adipisicing elit. Beatae perspiciatis minus error temporibus rem itaque eveniet nihil dicta aut, porro consequuntur asperiores voluptatem quia sit optio pariatur corporis incidunt tenetur.
+                        Perspiciatis deserunt placeat similique eaque voluptatibus vitae commodi sapiente. Tempora, provident non? Temporibus odio ex exercitationem architecto voluptas, praesentium, nisi eius libero blanditiis consectetur corrupti suscipit neque, omnis qui eligendi!
+                    </p>
+                </details>
+              </aside>
+            <br>
+            You can use semantic HTML tags to structure all of the content on your web pages. This will make your code more readable and maintainable, and it will also help search engines to better understand the content of your pages.
+        </div>
+        <hr>
+        <!-- Create Tables  -->
+        <div>
+            <h1>Create Tables </h1>
+            <table>
+                <caption>caption</caption>
+                <thead>
+                    <tr>
+                        <th>
+                            table/thead/tr/th
+                        </th>
+                        <th>
+                            table/thead/tr/th
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            table/tbody/tr/td
+                        </td>
+                        <td>
+                            table/tbody/tr/td
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            table/tbody/tr/td
+                        </td>
+                        <td>
+                            table/tbody/tr/td
+                        </td>
+                    </tr>
+                    <tr>
+                        <td rowspan="2">
+                            table/tbody/tr/td
+                        </td>
+                        <td>
+                            table/tbody/tr/td
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            table/tbody/tr/td
+                        </td>
+                    </tr>
+                </tbody>
+                <tfoot>
+                    <tr>
+                        <td colspan="2">table/tfoot/tr/td</td>
+                    </tr>
+                </tfoot>
+            </table>
         </div>
     </body>
 </html>
