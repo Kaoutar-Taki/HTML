@@ -1,356 +1,396 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <meta name="author" content="Kaoutar Taki">
-        <meta name="description" content="This is a course of HTML.">
-        <link rel="stylesheet" href="style/main.css" type="text/css">
-        <link rel="icon" href="img/html.jpg" type="image/x-icon">
-        <title>KTaki</title>
-    </head>
-    <body>
-        <!-- Start Here -->
-        <div id="StartHere">
-            <h1>Start Here</h1>
-            --------------------
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Kaoutar Taki" />
+    <meta name="description" content="This is a course of HTML." />
+    <link rel="stylesheet" href="style/main.css" type="text/css" />
+    <link rel="icon" href="img/html.jpg" type="image/x-icon" />
+    <title>KTaki</title>
+  </head>
+  <body>
+    <!-- Start Here -->
+    <div id="StartHere">
+      <h1>Start Here</h1>
+      <div>
+        <b>HTML:</b> <br />
+        &nbsp;&nbsp;&nbsp;-stands for HyperText Markup Language. <br />
+        &nbsp;&nbsp;&nbsp;-It is the standard markup language for creating web
+        pages. HTML is used to define the structure of a web page and the
+        content that is displayed on the page.
+      </div>
+    </div>
+    <hr />
+    <!-- Text Basics -->
+    <div id="TextBasics">
+      <h1>Text Basics</h1>
+      <h1>H</h1>
+      <h2>E</h2>
+      <h3>L</h3>
+      <h4>L</h4>
+      <h5>O</h5>
+      <h6>!</h6>
+      <p>HELLO!</p>
+      <br />
+      <em>italic</em>
+      <br />
+      <strong>strong</strong>
+      <br />
+      &nbsp;&nbsp;space
+      <br />
+      &lt;&lt; &copy;copyright &gt;&gt;
+      <br />
+      <abbr title="abbreviation">abbr</abbr>
+      <br />
+      <address>address</address>
+      <br />
+      <u>Underlined</u>
+      <br />
+      <mark>Marked</mark>
+      <!-- this is a comment -->
+    </div>
+    <hr />
+    <!-- List Types -->
+    <div>
+      <h1>List Types</h1>
+      <ol>
+        <li>olli01</li>
+        <li>olli02</li>
+        <li>olli03</li>
+        <li>olli04</li>
+      </ol>
+      <ul>
+        <li>ulli01</li>
+        <li>ulli02</li>
+        <li>ulli03</li>
+        <li>ulli04</li>
+      </ul>
+      <dl>
+        <dt>dldt01</dt>
+        <dd>dldd01</dd>
+        <dd>dldd011</dd>
+        <dt>dldt02</dt>
+        <dd>dldd02</dd>
+        <dt>dldt03</dt>
+        <dd>dldd03</dd>
+      </dl>
+    </div>
+    <hr />
+    <!-- Add Links -->
+    <div>
+      <h1>Add Links</h1>
+      <a href="https://www.w3schools.com/html/">w3schools</a>
+      <br />
+      <a href="about00.html">About</a>
+      <br />
+      <a href="#StartHere">StartHere</a>
+      <br />
+      <a href="#TextBasics">TextBasics</a>
+      <br />
+      <a href="#">Back to Top</a>
+      <br />
+      <a href="/html/theoretical/index00.html">Back to Home</a>
+    </div>
+    <hr />
+    <!-- Add Images -->
+    <div>
+      <h1>Add Images</h1>
+      <figure>
+        <img
+          src="img/html.jpg"
+          alt="Html5"
+          width="200"
+          height="200"
+          title="I am learning HTML5"
+          loading="lazy"
+        />
+        <!-- loading="eager" -->
+        <figcaption>HTML5</figcaption>
+      </figure>
+      <figure>
+        <figcaption>
+          <hr />
+        </figcaption>
+        <p>
+          <code> &lt;h1&gt;Hello World!&lt;/h1&gt; </code>
+        </p>
+      </figure>
+      <!-- https://loremipsum.io/ -->
+      <!-- https://unsplash.com/ -->
+      <!-- https://www.pexels.com/ -->
+      <!-- https://gratisography.com/ -->
+      <!-- https://pixabay.com/ -->
+      <!-- https://www.irfanview.com/ -->
+      <!-- https://www.canva.com/ -->
+      <!-- https://tinypng.com/ -->
+      <img src="http://via.placeholder.com/640x360" alt="loremipsum.io" />
+    </div>
+    <hr />
+    <!-- Semantic Tags -->
+    <div>
+      <h1>Semantic Tags</h1>
+      Semantic HTML tags are tags that define the meaning of the content they
+      contain. For example, the tags <b>header</b>, <b>article</b> and
+      <b>footer</b> are semantic HTML tags. They clearly indicate the role of
+      the content they contain.
+      <br />
+      <br />
+      Semantic HTML tags are important for a number of reasons:
+      <br />
+      <ul>
+        <li>They make your code more readable and maintainable.</li>
+        <li>
+          They help search engines to better understand the content of your
+          pages.
+        </li>
+        <li>
+          They make your pages more accessible to users with disabilities.
+        </li>
+      </ul>
+      <br />
+      Here are some examples of semantic HTML tags:
+      <br />
+      <br />
+      <b>header</b>: Defines the header of a web page, such as the logo and
+      navigation menu.<br />
+      <b>nav</b>:Defines a navigation section, such as a sidebar or breadcrumb
+      trail.<br />
+      <b>section</b>: Defines a section of a web page, such as a blog post or
+      product listing.<br />
+      <b>article</b>: Defines a self-contained piece of content, such as a news
+      article or blog post.<br />
+      <b>footer</b>: Defines the footer of a web page, such as copyright
+      information and contact links.<br />
+      <b>aside/details/summary</b>: Defines content aside from the content (such
+      as a sidebar) in the main part of a document.<br />
+      <br />
+      <aside>
+        <details>
+          <summary>example</summary>
+          <p>
+            <time datetime="08:00">8 am</time>
+            <time datetime="PT3H">3 hours</time>
+            Lorem <mark>ipsum dolor</mark> sit amet consectetur adipisicing
+            elit. Beatae perspiciatis minus error temporibus rem itaque eveniet
+            nihil dicta aut, porro consequuntur asperiores voluptatem quia sit
+            optio pariatur corporis incidunt tenetur. Perspiciatis deserunt
+            placeat similique eaque voluptatibus vitae commodi sapiente.
+            Tempora, provident non? Temporibus odio ex exercitationem architecto
+            voluptas, praesentium, nisi eius libero blanditiis consectetur
+            corrupti suscipit neque, omnis qui eligendi!
+          </p>
+        </details>
+      </aside>
+      <br />
+      You can use semantic HTML tags to structure all of the content on your web
+      pages. This will make your code more readable and maintainable, and it
+      will also help search engines to better understand the content of your
+      pages.
+    </div>
+    <hr />
+    <!-- Create Tables  -->
+    <div>
+      <h1>Create Tables</h1>
+      <table>
+        <caption>
+          caption
+        </caption>
+        <thead>
+          <tr>
+            <th scope="col">&nbsp;space</th>
+            <th scope="col">table/thead/tr/th</th>
+            <th scope="col">table/thead/tr/th</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">table/tbody/tr/th</th>
+            <td>table/tbody/tr/td</td>
+            <td>table/tbody/tr/td</td>
+          </tr>
+          <tr>
+            <th scope="row">table/tbody/tr/th</th>
+            <td>table/tbody/tr/td</td>
+            <td>table/tbody/tr/td</td>
+          </tr>
+          <tr>
+            <th scope="row">table/tbody/tr/th</th>
+            <td rowspan="2">table/tbody/tr/td</td>
+            <td>table/tbody/tr/td</td>
+          </tr>
+          <tr>
+            <th scope="row">table/tbody/tr/th</th>
+            <td>table/tbody/tr/td</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td colspan="3">table/tfoot/tr/td</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+    <hr />
+    <!-- Forms & Inputs -->
+    <div>
+      <h1>Forms & Inputs</h1>
+      <form action="#" method="get">
+        <fieldset>
+          <fieldset>
+            <legend>Personal Information</legend>
             <div>
-                <b>HTML:</b> <br>
-                    &nbsp;&nbsp;&nbsp;-stands for HyperText Markup Language. <br> 
-                    &nbsp;&nbsp;&nbsp;-It is the standard markup language for creating web pages. HTML is used to define the structure of a web page and the content that is displayed on the page.
+              <label for="name">Name:</label>
+              <input
+                type="text"
+                id="name"
+                name="name"
+                placeholder="Enter your name"
+                autocomplete="on"
+                required
+                autofocus
+              />
+              <br />
+              <br />
+              <label for="email">Email:</label>
+              <input
+                type="email"
+                id="email"
+                name="email"
+                placeholder="Enter your email"
+                autocomplete="on"
+                required
+              />
+              <br />
+              <br />
+              <label for="password">Password:</label>
+              <input
+                type="password"
+                id="password"
+                name="password"
+                placeholder="Enter your password"
+                autocomplete="on"
+                required
+              />
+              <br />
+              <br />
+              <label for="phone">Phone:</label>
+              <input
+                type="tel"
+                id="phone"
+                name="phone"
+                placeholder="555-555-5555"
+                autocomplete="on"
+                required
+                pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"
+              />
+              <br />
+              <br />
+              <label for="decade">Favorite Decade</label>
+              <input
+                type="number"
+                name="decade"
+                id="decade"
+                min="1900"
+                max="2023"
+                step="10"
+                value="1998"
+              />
             </div>
-        </div>
-        <hr>
-        <!-- Text Basics -->
-        <div id="TextBasics">
-            <h1>Text Basics</h1>
-            --------------------
-            <h1>H</h1>
-            <h2>E</h2>
-            <h3>L</h3>
-            <h4>L</h4>
-            <h5>O</h5>
-            <h6>!</h6>
-            <p>HELLO!</p>
-            <br>
-            <em>italic</em>
-            <br>
-            <strong>strong</strong>
-            <br>
-            &nbsp;&nbsp;space 
-            <br>
-            &lt;&lt; &copy;copyright &gt;&gt;
-            <br>
-            <abbr title="abbreviation">abbr</abbr> 
-            <br>
-            <address>address</address>
-            <br>
-            <u>Underlined</u>
-            <br>
-            <mark>Marked</mark>
-            <!-- this is a comment -->
-        </div>
-        <hr>
-        <!-- List Types -->
-        <div>
-            <h1>List Types</h1>
-            <ol>
-                <li>olli01</li>
-                <li>olli02</li>
-                <li>olli03</li>
-                <li>olli04</li>
-            </ol>
-            <ul>
-                <li>ulli01</li>
-                <li>ulli02</li>
-                <li>ulli03</li>
-                <li>ulli04</li>
-            </ul>
-            <dl>
-                <dt>dldt01</dt>
-                <dd>dldd01</dd>
-                <dd>dldd011</dd>
-                <dt>dldt02</dt>
-                <dd>dldd02</dd>
-                <dt>dldt03</dt>
-                <dd>dldd03</dd>
-            </dl>
-        </div>
-        <hr>
-        <!-- Add Links -->
-        <div>
-            <h1>Add Links</h1>
-            <a href="https://www.w3schools.com/html/">w3schools</a>
-            <br>
-            <a href="about.html">About</a>
-            <br>
-            <a href="#StartHere">StartHere</a>
-            <br>
-            <a href="#TextBasics">TextBasics</a>
-            <br>
-            <a href="#">Back to Top</a>
-            <br>
-            <a href="/">Back to Home</a>
-        </div>
-        <hr>
-        <!-- Add Images -->
-        <div>
-            <h1>Add Images</h1>
-            <figure>
-                <img 
-                    src="img/html.jpg" 
-                    alt="Html5"
-                    width="200"
-                    height="200"
-                    title="I am learning HTML5"
-                    loading="lazy"   
-                >
-                <!-- loading="eager" -->
-                <figcaption>
-                    HTML5
-                </figcaption>
-            </figure>
-            <figure>
-                <figcaption>
-                    <hr>
-                </figcaption>
-                <p>
-                    <code>
-                        &lt;h1&gt;Hello World!&lt;/h1&gt;
-                    </code>
-                </p>
-            </figure>
-            <!-- https://loremipsum.io/ -->
-            <!-- https://unsplash.com/ -->
-            <!-- https://www.pexels.com/ -->
-            <!-- https://gratisography.com/ -->
-            <!-- https://pixabay.com/ -->
-            <!-- https://www.irfanview.com/ -->
-            <!-- https://www.canva.com/ -->
-            <!-- https://tinypng.com/ -->
-            <img 
-                src="http://via.placeholder.com/640x360" 
-                alt="loremipsum.io"
-            >
-        </div>
-        <hr>
-        <!-- Semantic Tags -->
-        <div> 
-            <h1>Semantic Tags</h1>
-            Semantic HTML tags are tags that define the meaning of the content they contain. For example, the tags <b>header</b>, <b>article</b> and <b>footer</b> are semantic HTML tags. They clearly indicate the role of the content they contain.
-            <br>
-            <br>
-            Semantic HTML tags are important for a number of reasons:
-            <br>
-            <ul>
-                <li>They make your code more readable and maintainable. </li>
-                <li>They help search engines to better understand the content of your pages. </li>
-                <li>They make your pages more accessible to users with disabilities. </li>
-            </ul>
-            <br>
-            Here are some examples of semantic HTML tags:
-            <br>
-            <br>
-            <b>header</b>: Defines the header of a web page, such as the logo and navigation menu.<br>
-            <b>nav</b>:Defines a navigation section, such as a sidebar or breadcrumb trail.<br>
-            <b>section</b>: Defines a section of a web page, such as a blog post or product listing.<br>
-            <b>article</b>: Defines a self-contained piece of content, such as a news article or blog post.<br>
-            <b>footer</b>: Defines the footer of a web page, such as copyright information and contact links.<br>
-            <b>aside/details/summary</b>: Defines content aside from the content (such as a sidebar) in the main part of a document.<br>
-            <br>
-            <aside>
-                <details>
-                    <summary>example</summary>
-                    <p>
-                        <time datetime="08:00">8 am</time>
-                        <time datetime="PT3H">3 hours</time>
-                        Lorem  <mark>ipsum dolor</mark> sit amet consectetur adipisicing elit. Beatae perspiciatis minus error temporibus rem itaque eveniet nihil dicta aut, porro consequuntur asperiores voluptatem quia sit optio pariatur corporis incidunt tenetur.
-                        Perspiciatis deserunt placeat similique eaque voluptatibus vitae commodi sapiente. Tempora, provident non? Temporibus odio ex exercitationem architecto voluptas, praesentium, nisi eius libero blanditiis consectetur corrupti suscipit neque, omnis qui eligendi!
-                    </p>
-                </details>
-              </aside>
-            <br>
-            You can use semantic HTML tags to structure all of the content on your web pages. This will make your code more readable and maintainable, and it will also help search engines to better understand the content of your pages.
-        </div>
-        <hr>
-        <!-- Create Tables  -->
-        <div>
-            <h1>Create Tables </h1>
-            <table>
-                <caption>caption</caption>
-                <thead>
-                    <tr>
-                        <th scope="col">
-                            &nbsp;space
-                        </th>
-                        <th scope="col">
-                            table/thead/tr/th
-                        </th>
-                        <th scope="col">
-                            table/thead/tr/th
-                        </th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th scope="row">
-                            table/tbody/tr/th
-                        </th>
-                        <td>
-                            table/tbody/tr/td
-                        </td>
-                        <td>
-                            table/tbody/tr/td
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">
-                            table/tbody/tr/th
-                        </th>
-                        <td>
-                            table/tbody/tr/td
-                        </td>
-                        <td>
-                            table/tbody/tr/td
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">
-                            table/tbody/tr/th
-                        </th>
-                        <td rowspan="2">
-                            table/tbody/tr/td
-                        </td>
-                        <td>
-                            table/tbody/tr/td
-                        </td>
-                    </tr>
-                    <tr>
-                        <th scope="row">
-                            table/tbody/tr/th
-                        </th>
-                        <td>
-                            table/tbody/tr/td
-                        </td>
-                    </tr>
-                </tbody>
-                <tfoot>
-                    <tr>
-                        <td colspan="3">table/tfoot/tr/td</td>
-                    </tr>
-                </tfoot>
-            </table>
-        </div>
-        <hr>
-        <!-- Forms & Inputs -->
-        <div>
-            <h1>Forms & Inputs</h1>
-            <form action="https://httpbin.org/get" method="get">
-                <fieldset>                
-                    <fieldset>
-                        <legend>Personal Information</legend>
-                        <div>
-                            <label for="name">Name:</label>
-                            <input type="text" id="name" name="name" placeholder="Enter your name" autocomplete="on" required autofocus>
-                            <br>
-                            <br> 
-                            <label for="email">Email:</label>
-                            <input type="email" id="email" name="email" placeholder="Enter your email" autocomplete="on" required>
-                            <br>
-                            <br>
-                            <label for="password">Password:</label>
-                            <input type="password" id="password" name="password" placeholder="Enter your password" autocomplete="on" required>
-                            <br>
-                            <br>
-                            <label for="phone">Phone:</label>
-                            <input type="tel" id="phone" name="phone" placeholder="555-555-5555" autocomplete="on" required pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}">
-                            <br>
-                            <br>
-                            <label for="decade">Favorite Decade</label>
-                            <input type="number" name="decade" id="decade" min="1900" max="2023" step="10" value="1998">
-                        </div>
-                    </fieldset>
-                    <fieldset>
-                        <legend>Favorite</legend>
-                        <div>
-                            <label>Favorite drinks</label>
-                            <select name="coffee" id="coffee" multiple size="5">
-                                <optgroup label="Coffees">
-                                    <option value="latte">Latte</option>
-                                    <option value="mocha">Mocha</option>
-                                    <option value="cappuccino">Cappuccino</option>
-                                    <option value="espresso" selected>Espresso</option>
-                                    <option value="americano">Americano</option>
-                                    <option value="frappuccino">Frappuccino</option>
-                                    <option value="chai">Chai</option>
-                                </optgroup>
-                                <optgroup label="Teas">
-                                    <option value="green">Green Tea</option>
-                                    <option value="black">Black Tea</option>
-                                    <option value="herbal">Herbal Tea</option>
-                                    <option value="chai">Chai Tea</option>
-                                    <option value="matcha">Matcha Tea</option>
-                                    <option value="honey">Honey Tea</option>
-                                </optgroup>
-                                <option value="other">Other</option>
-                            </select>
-                            <br>
-                            <br>
-                            <label for="coffee">Favorite Coffee:</label>
-                            <input type="text" name="coffee2" id="coffee-list2" list="coffee-list">
-                                <datalist id="coffee-list">
-                                    <option value="latte">
-                                    <option value="mocha">
-                                    <option value="cappuccino">
-                                    <option value="espresso">
-                                    <option value="americano">
-                                    <option value="frappuccino">
-                                    <option value="chai">
-                                    <option value="green">
-                                    <option value="black">
-                                    <option value="herbal">
-                                </datalist>
-                            <br>
-                            <br>
-                            <label>Favorite Food:</label>
-                            <br>
-                            <input type="radio" name="food" id="food1" value="pizza">
-                            <label for="food1">Pizza</label>
-                            <br>
-                            <input type="radio" name="food" id="food2" value="burger">
-                            <label for="food2">Burger</label>
-                            <br>
-                            <input type="radio" name="food" id="food3" value="fries">
-                            <label for="food3">Fries</label>
-                            <br>
-                            <br>
-                            <label>Favorite Pets:</label>
-                            <br>
-                            <input type="checkbox" name="pets" id="pets1" value="dog">
-                            <label>Dog</label>
-                            <br>
-                            <input type="checkbox" name="pets" id="pets2" value="cat">
-                            <label>Cat</label>
-                            <br>
-                            <input type="checkbox" name="pets" id="pets3" value="hamster">
-                            <label>Hamster</label>
-                        </div>
-                    </fieldset>
-                    <fieldset>
-                        <legend>Send Me A Note</legend>
-                        <div>
-                            <label for="message">Your Message:</label>
-                            <textarea name="message" id="message" cols="30" rows="10" placeholder="Type your message here..."></textarea>
-                        </div>
-                    </fieldset>
-                    <br>
-                    <div>
-                        <button type="submit">Submit</button>
-                        <button type="submit" formaction="https://httpbin.org/post" formmethod="post">Post</button>
-                        <button type="reset">Reset</button>
-                    </div>
-                </fieldset>
-            </form>
-        </div>
-    </body>
+          </fieldset>
+          <fieldset>
+            <legend>Favorite</legend>
+            <div>
+              <label>Favorite drinks</label>
+              <select name="coffee" id="coffee" multiple size="5">
+                <optgroup label="Coffees">
+                  <option value="latte">Latte</option>
+                  <option value="mocha">Mocha</option>
+                  <option value="cappuccino">Cappuccino</option>
+                  <option value="espresso" selected>Espresso</option>
+                  <option value="americano">Americano</option>
+                  <option value="frappuccino">Frappuccino</option>
+                  <option value="chai">Chai</option>
+                </optgroup>
+                <optgroup label="Teas">
+                  <option value="green">Green Tea</option>
+                  <option value="black">Black Tea</option>
+                  <option value="herbal">Herbal Tea</option>
+                  <option value="chai">Chai Tea</option>
+                  <option value="matcha">Matcha Tea</option>
+                  <option value="honey">Honey Tea</option>
+                </optgroup>
+                <option value="other">Other</option>
+              </select>
+              <br />
+              <br />
+              <label for="coffee">Favorite Coffee:</label>
+              <input
+                type="text"
+                name="coffee2"
+                id="coffee-list2"
+                list="coffee-list"
+              />
+              <datalist id="coffee-list">
+                <option value="latte"></option>
+                <option value="mocha"></option>
+                <option value="cappuccino"></option>
+                <option value="espresso"></option>
+                <option value="americano"></option>
+                <option value="frappuccino"></option>
+                <option value="chai"></option>
+                <option value="green"></option>
+                <option value="black"></option>
+                <option value="herbal"></option>
+              </datalist>
+
+              <br />
+              <br />
+              <label>Favorite Food:</label>
+              <br />
+              <input type="radio" name="food" id="food1" value="pizza" />
+              <label for="food1">Pizza</label>
+              <br />
+              <input type="radio" name="food" id="food2" value="burger" />
+              <label for="food2">Burger</label>
+              <br />
+              <input type="radio" name="food" id="food3" value="fries" />
+              <label for="food3">Fries</label>
+              <br />
+              <br />
+              <label>Favorite Pets:</label>
+              <br />
+              <input type="checkbox" name="pets" id="pets1" value="dog" />
+              <label>Dog</label>
+              <br />
+              <input type="checkbox" name="pets" id="pets2" value="cat" />
+              <label>Cat</label>
+              <br />
+              <input type="checkbox" name="pets" id="pets3" value="hamster" />
+              <label>Hamster</label>
+            </div>
+          </fieldset>
+          <fieldset>
+            <legend>Send Me A Note</legend>
+            <div>
+              <label for="message">Your Message:</label>
+              <textarea
+                name="message"
+                id="message"
+                cols="30"
+                rows="10"
+                placeholder="Type your message here..."
+              ></textarea>
+            </div>
+          </fieldset>
+          <br />
+          <div>
+            <button type="submit">Submit</button>
+            <button type="submit" formaction="#" formmethod="post">Post</button>
+            <button type="reset">Reset</button>
+          </div>
+        </fieldset>
+      </form>
+    </div>
+  </body>
 </html>
